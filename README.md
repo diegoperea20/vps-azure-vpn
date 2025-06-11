@@ -101,20 +101,20 @@ exit
 
 The WireGuard installation script generates a `.conf` configuration file for each client (your local machine). You need to transfer this file from your Azure VM to your computer.
 
-A useful tool for this on Windows is [WinSCP](https://winscp.net/eng/download.php), a graphical SFTP/SCP client. For macOS and Linux, you can use the scp command or SFTP clients like FileZilla.
+A useful tool for this on dows is [SCP](https://scp.net/eng/download.php), a graphical SFTP/SCP client. For macOS and Linux, you can use the scp command or SFTP clients like FileZilla.
 
-1. Download and install WinSCP (or your preferred SFTP client).
+1. Download and install SCP (or your preferred SFTP client).
 <p align="center">
-<img src="README-images/winscp.png" alt="Download WinSCP">
+<img src="README-images/winSCP.png" alt="Download SCP">
 <br>
-<em>WinSCP download page.</em>
+<em>SCP download page.</em>
 </p>
 
-2. Connect to your Azure VM using WinSCP (Host: YOUR_PUBLIC_IP, User: your_user, Port: 22).
+2. Connect to your Azure VM using SCP (Host: YOUR_PUBLIC_IP, User: your_user, Port: 22).
 
 3. Navigate to the location of the .conf file (usually in the home directory of the user who ran the script, e.g. /root/client.conf or /home/your_user/client.conf) and download it to your local PC.
 <p align="center">
-<img src="README-images/windownload.png" alt="Download configuration file with WinSCP">
+<img src="README-images/download.png" alt="Download configuration file with SCP">
 <br>
 <em>Example of downloading the <code>.conf</code> configuration file using WinSCP.</em>
 </p>
@@ -286,7 +286,7 @@ Una herramienta útil para esto en Windows es [WinSCP](https://winscp.net/eng/do
 
 1. Descarga e instala WinSCP (o tu cliente SFTP preferido).
 <p align="center">
-<img src="README-images/winscp.png" alt="Descargar WinSCP">
+<img src="README-images/winSCP.png" alt="Descargar WinSCP">
 <br>
 <em>Página de descarga de WinSCP.</em>
 </p>
