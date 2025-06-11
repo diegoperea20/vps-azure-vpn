@@ -114,7 +114,7 @@ A useful tool for this on dows is [SCP](https://scp.net/eng/download.php), a gra
 
 3. Navigate to the location of the .conf file (usually in the home directory of the user who ran the script, e.g. /root/client.conf or /home/your_user/client.conf) and download it to your local PC.
 <p align="center">
-<img src="README-images/download.png" alt="Download configuration file with SCP">
+<img src="README-images/windownload.png" alt="Download configuration file with SCP">
 <br>
 <em>Example of downloading the <code>.conf</code> configuration file using WinSCP.</em>
 </p>
